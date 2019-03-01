@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Image from './components/Image'
+import SuperMessage from './components/SuperMessage'
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Hello, world!</h1>
+          <SuperMessage text="Hello, world!"/>
           <Image src={logo} class="App-logo" alt="logo"/>
           <p>
             Edit <code>src/App.js</code> and save to reload.
