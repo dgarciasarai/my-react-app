@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Image from './components/Image'
 import logo from './logo.svg';
 import './App.css';
 
@@ -23,10 +24,6 @@ class App extends Component {
       </div>
     );
   }
-}
-
-function Image(props) {
-    return <img src={props.src} className={props.class} alt={props.alt} />
 }
 
 export default App;
